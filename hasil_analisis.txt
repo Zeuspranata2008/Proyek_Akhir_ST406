@@ -1,0 +1,38 @@
+================================================================================
+  LAPORAN ANALISIS SAINS DATA MULTI-RELASIONAL: KEJUARAAN DUNIA MOTOGP         
+================================================================================
+Disusun oleh : Naufal Abid Syaikha Daffa 'Ulhaq (NIM: 25.11.6552)
+Proyek       : Sistem Analisis Big Data Sejarah MotoGP (1949-2022)
+Dataset      : 6 Tabel Relational Master (Winners, Info, Constructors, Lockouts)
+================================================================================
+
+--- BAGIAN 1: KOMPARASI STATISTIK LEGENDA BALAP (HEAD-TO-HEAD) ---
+        Pembalap    Negara  Total_Menang  Musim_Dominan Motor_Utama                           Sirkuit_Favorit
+    Marc Marquez     SPAIN            56              8       Honda                          Sachsenring (8x)
+ Valentino Rossi     ITALY            84             16      Yamaha                     TT Circuit Assen (8x)
+Giacomo Agostini     ITALY            67             11   MV Agusta                               Imatra (9x)
+     Mick Doohan AUSTRALIA            42              9       Honda Autodromo Internazionale del Mugello (5x)
+    Casey Stoner AUSTRALIA            38              6      Ducati                       Phillip Island (6x)
+
+--- BAGIAN 2: SUPREMASI NEGARA & FENOMENA PODIUM LOCKOUT ---
+Berdasarkan dataset 'same-nation-podium-lockouts.csv', tercatat terjadi 264 kali
+fenomena 'Podium Lockout' (di mana Juara 1, 2, dan 3 diborong oleh pembalap dari
+satu negara yang sama dalam satu balapan). Hal ini membuktikan dominasi program
+pembinaan balap motor dari negara-negara raksasa seperti Italia dan Spanyol.
+
+--- BAGIAN 3: EVOLUSI & HEGEMONI KONSTRUKTOR MESIN ---
+Berdasarkan sejarah Gelar Juara Dunia Konstruktor, 3 pabrikan paling dominan adalah:
+  1. Honda : Meraih 65 kali gelar Juara Dunia Konstruktor.
+  2. Yamaha : Meraih 38 kali gelar Juara Dunia Konstruktor.
+  3. MV Agusta : Meraih 35 kali gelar Juara Dunia Konstruktor.
+Data ini memperlihatkan bagaimana persaingan teknologi aerodinamika dan mesin
+telah bergeser dari era keemasan motor pabrikan Jepang menuju raksasa Eropa.
+
+--- BAGIAN 4: KESIMPULAN STRATEGIS UNTUK PRESENTASI ---
+1. Integrasi Multi-Dataset menghasilkan validasi yang lebih kuat dibanding analisis tunggal.
+2. Karakteristik sirkuit (Sirkuit_Favorit) memiliki korelasi langsung dengan DNA motor (Motor_Utama).
+3. Konsistensi finis di zona poin jauh lebih menentukan gelar jangka panjang dibanding kemenangan acak.
+
+================================================================================
+       [Laporan digenerate secara otomatis oleh Sistem Analisis MotoGP] 
+================================================================================
